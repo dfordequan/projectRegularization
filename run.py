@@ -7,10 +7,10 @@ import shutil
 
 from regularize import regularize_segmentations
 
-mask = '/home/aoqiao/developer_dq/classlocation_oe/projectRegularization/images/mask_5996668.tif'
-before = '/home/aoqiao/developer_dq/classlocation_oe/projectRegularization/images/before_5996668.tif'
-after = '/home/aoqiao/developer_dq/classlocation_oe/projectRegularization/images/after_5996668.tif'
-output = '/home/aoqiao/developer_dq/classlocation_oe/projectRegularization/output/'
+mask = './images/mask_5996668.tif'
+before = './images/before_5996668.tif'
+after = './images/after_5996668.tif'
+output = './output/'
 
 
 os.makedirs(output, exist_ok=True)
