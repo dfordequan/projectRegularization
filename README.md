@@ -1,3 +1,14 @@
+## Customized Regularization steps
+1. Download models from the link below and place them in a folder called saved_models_gan.
+
+2. Make sure necessary packages installed, mainly torch, skimage, but also imagecodecs ( can be installed with pip)
+
+3. edit the input files in run.py and run:
+~~~
+python3 run.py
+~~~
+
+## Original Readme
 # Regularization of Building Boundaries in Satellite and Aerial Images
 This repository contains the implementation for our publication "Machine-learned regularization and polygonization of building segmentation masks", ICPR 2021. 
 If you use this implementation please cite the following publication:

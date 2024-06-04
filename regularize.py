@@ -4,7 +4,7 @@ from skimage.transform import rotate
 import numpy as np
 import torch
 from tqdm import tqdm
-import gdal
+# import gdal
 import os
 import glob
 from skimage.segmentation import mark_boundaries
@@ -296,8 +296,8 @@ def regularize_segmentations(img_folder, seg_folder, out_folder, in_mode="semant
             io.imsave(samples + "./%d_2reg.png" % num, np.uint8(R))
             io.imsave(samples + "./%d_1seg.png" % num, np.uint8(M))
 
-        copyGeoreference(satellite_image_file, output_file)
-        copyGeoreference(satellite_image_file, building_segmentation_file)
+        # copyGeoreference(satellite_image_file, output_file)
+        # copyGeoreference(satellite_image_file, building_segmentation_file)
 
 
 
